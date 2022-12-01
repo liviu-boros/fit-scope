@@ -1,1 +1,1 @@
-# fit-scope
+Study project for mobile design.
