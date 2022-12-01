@@ -1,0 +1,95 @@
+html {
+    scroll-behavior: smooth;
+}
+body {
+    margin: auto;
+    padding: 0;
+    display: block;
+    background-color: #333333;
+    width: 1440px;
+}
+
+/* test */
+/* .nav {
+    background-color: rgba(91, 255, 255, 0.4);
+}
+.nav ul {
+    background-color: rgba(255, 251, 15, 0.4);
+}
+.nav ul li {
+    background-color: rgba(204, 44, 58, 0.4);
+}
+.nav ul li a {
+    background-color: rgba(51, 51, 51, 0.4);
+}
+.nav ul li a img {
+    border: crimson solid 1px;
+} */
+/* test */
+
+.nav {
+    position: sticky;
+    top: 0%;
+    right: 0%;
+    z-index: 9999;
+    padding: 0 1rem 0 0;
+    margin: 0;
+    display: flex;
+    justify-content: end;
+}
+.nav ul {
+    list-style: none;
+    border-radius: 10px;
+    padding: 0.1rem;
+    display: flex;
+    flex-direction: row;
+    gap: 0.1rem;
+    transition: all 1s;
+}
+.nav ul li {
+    display: block;
+    padding: 0.3rem;
+}
+.nav ul li a {
+    display: block;
+}
+.nav ul li a img {
+    opacity: 0;
+    margin: 0.1rem;
+    transition: all 0.2s;
+}
+.nav ul:hover {
+    background-color: rgb(48, 48, 48, 0.9);
+}
+.nav ul:hover img {
+    opacity: 1;
+}
+.nav img:hover {
+    opacity: 1;
+    filter: invert(55%) sepia(71%) saturate(497%) hue-rotate(353deg) brightness(107%) contrast(76%);
+}
+.nav img:hover ul{
+    opacity: 0.1;
+}
+.nav img.active {
+    opacity: 0.3;
+    filter: invert(55%) sepia(71%) saturate(497%) hue-rotate(353deg) brightness(107%) contrast(76%);
+}
+.nav img.homeNav {
+    content: url("../svg/home-default.svg");
+}
+.nav img.designsysNav {
+    content: url("../svg/designsys-default.svg");
+}
+.nav img.exercisesNav {
+    content: url("../svg/exercises-default.svg");
+}
+.nav img.workoutsNav {
+    content: url("../svg/workouts-default.svg");
+}
+.nav img.plannerNav {
+    content: url("../svg/planner-default.svg");
+}
+.nav img.currentNav {
+    content: url("../svg/current-default.svg");
+}
