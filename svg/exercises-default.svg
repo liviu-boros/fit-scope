@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="44" height="44" viewBox="0 0 44 44">
+  <g id="exercises-default" transform="translate(-946 -578)">
+    <rect id="Frame" width="44" height="44" transform="translate(946 578)" fill="none"/>
+    <path id="Subtraction" d="M6881-4768h-14a5.005,5.005,0,0,1-5-5v-20a5.005,5.005,0,0,1,5-5h14a5.005,5.005,0,0,1,5,5v20A5.005,5.005,0,0,1,6881-4768Zm-14-9a1,1,0,0,0-1,1v1a1,1,0,0,0,1,1h14a1,1,0,0,0,1-1v-1a1,1,0,0,0-1-1Zm0-5a1,1,0,0,0-1,1v1a1,1,0,0,0,1,1h14a1,1,0,0,0,1-1v-1a1,1,0,0,0-1-1Zm4-13a1,1,0,0,0-1,1v6a1,1,0,0,0,1,1h6a1,1,0,0,0,1-1v-6a1,1,0,0,0-1-1Z" transform="translate(-5906 5383)" fill="#fff"/>
+  </g>
+</svg>
