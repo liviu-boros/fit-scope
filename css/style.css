@@ -7,6 +7,8 @@ body {
     display: block;
     background-color: #333333;
     width: 1440px;
+    overflow-anchor: none;
+    scrollbar-width: thin;
 }
 
 /* test */
@@ -29,33 +31,32 @@ body {
 
 .nav {
     position: sticky;
-    top: 0%;
-    right: 0%;
+    top: -25px;
+    right: 0;
     z-index: 9999;
-    padding: 0 1rem 0 0;
-    margin: 0;
+    padding-right: 85px;
+    margin-top: -100px;
     display: flex;
     justify-content: end;
 }
 .nav ul {
     list-style: none;
-    border-radius: 10px;
-    padding: 0.1rem;
+    border-radius: 0 0 10px 10px;
+    padding: 5px 5px 5px 5px;
     display: flex;
     flex-direction: row;
-    gap: 0.1rem;
     transition: all 1s;
 }
 .nav ul li {
     display: block;
-    padding: 0.3rem;
+    padding: 4px;
 }
 .nav ul li a {
     display: block;
 }
 .nav ul li a img {
     opacity: 0;
-    margin: 0.1rem;
+    margin: 0px;
     transition: all 0.2s;
 }
 .nav ul:hover {
@@ -72,24 +73,34 @@ body {
     opacity: 0.1;
 }
 .nav img.active {
-    opacity: 0.3;
+    opacity: 0.8;
+    border-top: 5px solid #fff;
     filter: invert(55%) sepia(71%) saturate(497%) hue-rotate(353deg) brightness(107%) contrast(76%);
 }
-.nav img.homeNav {
+.nav img.home {
     content: url("../svg/home-default.svg");
 }
-.nav img.designsysNav {
+.nav img.designsys {
     content: url("../svg/designsys-default.svg");
 }
-.nav img.exercisesNav {
+.nav img.exercises {
     content: url("../svg/exercises-default.svg");
 }
-.nav img.workoutsNav {
+.nav img.workouts {
     content: url("../svg/workouts-default.svg");
 }
-.nav img.plannerNav {
+.nav img.planner {
     content: url("../svg/planner-default.svg");
 }
-.nav img.currentNav {
+.nav img.current {
     content: url("../svg/current-default.svg");
 }
+
+section {
+    min-height: 120vh;
+    margin-bottom: 20px;
+}
+/* section#home img {
+    position: absolute;
+    /* top: 0; */
+} */
