@@ -1,7 +1,7 @@
 # FitScope [&nbsp;&nbsp;◹&nbsp;&nbsp;&nbsp;](https://liviu-boros.github.io/fit-scope/)
 
 Welcome to FitScope, a personal project in which I am studying UX design for mobile within the context of the fitness ecosystem.
-⧁⋙⩺❱🌐⤤
+
 In this project, I have created a custom design system for a fitness app, detailing colors, fonts, icons, components, and patterns. The presentation consists of several sections of high fidelity screens and task flows, including:
 
 - The **design system**, which outlines the overall look and feel of the app
