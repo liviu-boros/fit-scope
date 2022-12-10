@@ -1,4 +1,29 @@
-// function selectElementByClass(className) {
+let lastSection = null;
+
+const observer = (callback) => {
+  const observer = new IntersectionObserver(entries => {
+    console.log(entries)
+    const intersectingEntry = entries.find(entry => entry.isIntersecting)
+    if (intersectingEntry) {
+      callback(intersectingEntry.target)
+    }
+  },
+  {
+    rootMargin: '-45%'
+  });
+  document.querySelectorAll('section').forEach(section => observer.observe(section))
+};
+
+const setActive = item => {
+  document.querySelectorAll('a img').forEach(a => a.classList.remove('active'))
+  item.classList.add('active')
+};
+  
+observer(section => {
+  const navItem = document.querySelector(`[class="${section.id}"]`);
+  setActive(navItem);
+});
+  
 //     return document.querySelector(`.${className}`);
 // }
 
